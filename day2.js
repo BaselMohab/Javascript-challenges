@@ -116,11 +116,12 @@ const contains2To4 = (str, char) => {
     return countChars(str, char) >=2 && countChars(str,char) <=4
 }
 
-console.log(contains2To4("niice", "i"))
-console.log(contains2To4("nice", "i"))
-console.log(contains2To4("niiice", "i"))
-console.log(contains2To4("niiiice", "i"))
-console.log(contains2To4("niiiiice", "i"))
+console.log(contains2To4("niice", "i")) // true
+console.log(contains2To4("nice", "i"))  // false
+console.log(contains2To4("niiice", "i"))  // true
+console.log(contains2To4("niiiice", "i")) // true
+console.log(contains2To4("niiiiice", "i")) // false
+
 
 
 
